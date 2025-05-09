@@ -13,14 +13,6 @@ commands:
     description: Marks you as away-from-keyboard.
     usage: /<command> [player/message...]
     aliases: [eafk,away,eaway]
-  antioch:
-    description: 'A little surprise for operators.'
-    usage: /<command> [message]
-    aliases: [eantioch,grenade,egrenade,tnt,etnt]
-  anvil:
-    description: Opens up an Anvil.
-    usage: /<command>
-    aliases: [eanvil]
   back:
     description: Teleports you to your location prior to tp/spawn/warp.
     usage: /<command> [player]
@@ -29,30 +21,6 @@ commands:
     description: Runs the backup if configured.
     usage: /<command>
     aliases: [ebackup]
-  balance:
-    description: States the current balance of a player.
-    usage: /<command> [player]
-    aliases: [bal,ebal,ebalance,money,emoney]
-  balancetop:
-    description: Gets the top balance values.
-    usage: /<command> [page]
-    aliases: [ebalancetop,baltop,ebaltop]
-  ban:
-    description: Bans a player.
-    usage: /<command> <player> [reason]
-    aliases: [eban]
-  banip:
-    description: Bans an IP address.
-    usage: /<command> <address> [reason]
-    aliases: [ebanip]
-  beezooka:
-    description: Throw an exploding bee at your opponent.
-    usage: /<command>
-    aliases: [ebeezooka,beecannon,ebeecannon]
-  book:
-    description: Allows reopening and editing of sealed books.
-    usage: /<command> [title|author [name]]
-    aliases: [ebook]
   bottom:
     description: Teleport to the lowest block at your current position.
     usage: /<command>
@@ -61,22 +29,6 @@ commands:
     description: Breaks the block you are looking at.
     usage: /<command>
     aliases: [ebreak]
-  broadcast:
-    description: Broadcasts a message to the entire server.
-    usage: /<command> <msg>
-    aliases: [bc,ebc,bcast,ebcast,ebroadcast,shout,eshout]
-  broadcastworld:
-    description: Broadcasts a message to a world.
-    usage: /<command> <world> <msg>
-    aliases: [bcw,ebcw,bcastw,ebcastw,ebroadcastworld,shoutworld,eshoutworld]
-  bigtree:
-    description: Spawn a big tree where you are looking.
-    usage: /<command> <tree|redwood|jungle|darkoak>
-    aliases: [ebigtree,largetree,elargetree]
-  burn:
-    description: Set a player on fire.
-    usage: /<command> <player> <seconds>
-    aliases: [eburn]
   cartographytable:
     description: Opens up a cartography table.
     usage: /<command>
@@ -216,10 +168,6 @@ commands:
     description: Cools a player off.
     usage: /<command> [player]
     aliases: [eice, efreeze]
-  ignore:
-    description: Ignore or unignore other players.
-    usage: /<command> <player>
-    aliases: [eignore,unignore,eunignore,delignore,edelignore,remignore,eremignore,rmignore,ermignore]
   info:
     description: Shows information set by the server owner.
     usage: /<command> [chapter] [page]
@@ -288,10 +236,6 @@ commands:
     description: Opens up a loom.
     usage: /<command>
     aliases: [eloom]
-  mail:
-    description: Manages inter-player, intra-server mail.
-    usage: /<command> [read|clear|clear [number]|clear <player> [number]|send [to] [message]|sendtemp [to] [expire time] [message]|sendall [message]]
-    aliases: [email,eemail,memo,ememo]
   me:
     description: Describes an action in the context of the player.
     usage: /<command> <description>
@@ -304,18 +248,6 @@ commands:
     description: Views the Message Of The Day.
     usage: /<command> [chapter] [page]
     aliases: [emotd]
-  msg:
-    description: Sends a private message to the specified player.
-    usage: /<command> <to> <message>
-    aliases: [w,m,t,pm,emsg,epm,tell,etell,whisper,ewhisper]
-  msgtoggle:
-    description: Blocks receiving all private messages.
-    usage: /<command> [player] [on|off]
-    aliases: [emsgtoggle]
-  mute:
-    description: Mutes or unmutes a player.
-    usage: /<command> <player> [datediff] [reason]
-    aliases: [emute,silence,esilence]
   near:
     description: Lists the players near by or around a player.
     usage: /<command> [playername] [radius]
@@ -372,14 +304,6 @@ commands:
     description: Adjust a player's weather
     usage: /<command> [list|reset|storm|sun|clear] [player|*]
     aliases: [playerweather,eplayerweather,epweather]
-  r:
-    description: Quickly reply to the last player to message you.
-    usage: /<command> <message>
-    aliases: [er,reply,ereply]
-  rtoggle:
-    description: Change whether the recipient of the reply is last recipient or last sender
-    usage: /<command> [player] [on|off]
-    aliases: [ertoggle, replytoggle, ereplytoggle]
   realname:
     description: Displays the username of a user based on nick.
     usage: /<command> <nickname>
@@ -452,10 +376,6 @@ commands:
     description: Opens up a smithing table.
     usage: /<command>
     aliases: [esmithingtable, smithtable, esmithtable]
-  socialspy:
-    description: Toggles if you can see msg/mail commands in chat.
-    usage: /<command> [player] [on|off]
-    aliases: [esocialspy]
   spawner:
     description: Change the mob type of a spawner.
     usage: /<command> <mob> [delay]
